@@ -1,0 +1,66 @@
+.greenNotifier_area{
+	width: 100%;
+	min-width: 60%;
+	min-height: 50px;
+	position: relative;
+}
+
+#greenNotifier_area{
+	display:none;
+}
+
+.greenNotifier_position_area{
+	width: 100%;
+	position: fixed;
+	min-height: 50px;
+	z-index: 9999;
+}
+
+.greenNotifier_position_area.greenNotifier_bottom-center{
+	bottom: 10px;
+}
+
+.greenNotifier_position_area.greenNotifier_top-center{
+	top: 10px;
+}
+
+.greenNotifier_type_area{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.greenNotifier_type_area.greenNotifier_success{
+	background-color: #28a745 !important;
+}
+
+.greenNotifier_type_area.greenNotifier_warning{
+	background-color: #ffc107 !important;
+}
+
+.greenNotifier_type_area.greenNotifier_info{
+	background-color: #17a2b8 !important;
+}
+
+.greenNotifier_type_area.greenNotifier_danger{
+	background-color: #dc3545 !important;
+}
+
+.greenNotifier_area span.greenNotifier_closer{
+	margin: auto;
+	flex-basis: 30px;
+	border-right: 1px solid #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.greenNotifier_area p.greenNotifier_msg{
+	flex-grow: 10;
+	padding-left: 10px;
+	padding-right: 10px;
+}
